@@ -16,140 +16,140 @@ Below are the GitHub pages for each project stored in this repository, along wit
 <u>Technologies :</u> HTML  -  CSS\
 <u>Github Page :</u> [Page Mickey](https://tiffany-dby.github.io/3wacademy/02-mickey/)
 
-### Project 3 : []()
-<u>Description :</u> \
+### Project 3 : [Bruce Wayne Porfolio](https://github.com/Tiffany-Dby/3wacademy/tree/main/03-portfolio-bruce-wayne)
+<u>Description :</u> Reproduce the page, based on mockup and instructions\
 <u>Technologies :</u> HTML  -  CSS\
-<u>Github Page :</u>
+<u>Github Page :</u> [Page Bruce Wayne](https://tiffany-dby.github.io/3wacademy/03-portfolio-bruce-wayne/)
 
-### Project 4 : []()
-<u>Description :</u> \
+### Project 4 : [Triangles](https://github.com/Tiffany-Dby/3wacademy/tree/main/04-triangles)
+<u>Description :</u> Display triangles on a page\
 <u>Technologies :</u> HTML  -  CSS\
-<u>Github Page :</u>
+<u>Github Page :</u> [Page Triangles](https://tiffany-dby.github.io/3wacademy/04-triangles/)
 
 ### Project 5 : []()
 <u>Description :</u> \
 <u>Technologies :</u> HTML  -  CSS\
-<u>Github Page :</u>
+<u>Github Page :</u> []()
 
 ### Project 6 : []()
 <u>Description :</u> \
 <u>Technologies :</u> HTML  -  CSS\
-<u>Github Page :</u>
+<u>Github Page :</u> []()
 
 ### Project 7 : []()
 <u>Description :</u> \
 <u>Technologies :</u> HTML  -  CSS\
-<u>Github Page :</u>
+<u>Github Page :</u> []()
 
 ### Project 8 : []()
 <u>Description :</u> \
 <u>Technologies :</u> HTML  -  CSS\
-<u>Github Page :</u>
+<u>Github Page :</u> []()
 
 ### Project 9 : []()
 <u>Description :</u> `\
 <u>Technologies :</u> HTML  -  CSS\
-<u>Github Page :</u>
+<u>Github Page :</u> []()
 
 ### Project 10 : []()
 <u>Description :</u> \
 <u>Technologies :</u> HTML  -  CSS\
-<u>Github Page :</u>
+<u>Github Page :</u> []()
 
 ### Project 11 : []()
 <u>Description :</u> \
 <u>Technologies :</u> HTML  -  CSS\
-<u>Github Page :</u>:
+<u>Github Page :</u> []()
 
 ### Project 12 : []()
 <u>Description :</u> \
 <u>Technologies :</u> HTML  -  CSS\
-<u>Github Page :</u>
+<u>Github Page :</u> []()
 
 ### Project 13 : []()
 <u>Description :</u> \
 <u>Technologies :</u> HTML  -  CSS\
-<u>Github Page :</u>
+<u>Github Page :</u> []()
 
 ### Project 14 : []()
 <u>Description :</u> \
 <u>Technologies :</u> HTML  -  CSS\
-<u>Github Page :</u>
+<u>Github Page :</u> []()
 
 ### Project 15 : []()
 <u>Description :</u> `\
 <u>Technologies :</u> HTML  -  CSS\
-<u>Github Page :</u>
+<u>Github Page :</u> []()
 
 ### Project 16 : []()
 <u>Description :</u> \
 <u>Technologies :</u> HTML  -  CSS\
-<u>Github Page :</u>
+<u>Github Page :</u> []()
 
 ### Project 17 : []()
 <u>Description :</u> \
 <u>Technologies :</u> HTML  -  CSS\
-<u>Github Page :</u>
+<u>Github Page :</u> []()
 
 ### Project 18 : []()
 <u>Description :</u> \
 <u>Technologies :</u> HTML  -  CSS\
-<u>Github Page :</u>
+<u>Github Page :</u> []()
 
 ### Project 19 : []()
 <u>Description :</u> \
 <u>Technologies :</u> HTML  -  CSS\
-<u>Github Page :</u>:
+<u>Github Page :</u> []()
 
 ### Project 20 : []()
 <u>Description :</u> \
 <u>Technologies :</u> HTML  -  CSS\
-<u>Github Page :</u>
+<u>Github Page :</u> []()
 
 ### Project 21 : []()
 <u>Description :</u> \
 <u>Technologies :</u> HTML  -  CSS\
-<u>Github Page :</u>:
+<u>Github Page :</u> []()
 
 ### Project 22 : []()
 <u>Description :</u> \
 <u>Technologies :</u> HTML  -  CSS\
-<u>Github Page :</u>
+<u>Github Page :</u> []()
 
 ### Project 23 : []()
 <u>Description :</u> \
 <u>Technologies :</u> HTML  -  CSS\
-<u>Github Page :</u>
+<u>Github Page :</u> []()
 
 ### Project 24 : []()
 <u>Description :</u> \
 <u>Technologies :</u> HTML  -  CSS\
-<u>Github Page :</u>
+<u>Github Page :</u> []()
 
 ### Project 25 : []()
 <u>Description :</u> \
 <u>Technologies :</u> HTML  -  CSS\
-<u>Github Page :</u>
+<u>Github Page :</u> []()
 
 ### Project 26 : []()
 <u>Description :</u> \
 <u>Technologies :</u> HTML  -  CSS\
-<u>Github Page :</u>
+<u>Github Page :</u> []()
 
 ### Project 27 : []()
 <u>Description :</u> \
 <u>Technologies :</u> HTML  -  CSS\
-<u>Github Page :</u>
+<u>Github Page :</u> []()
 
 ### Project 28 : []()
 <u>Description :</u> \
 <u>Technologies :</u> HTML  -  CSS\
-<u>Github Page :</u>
+<u>Github Page :</u> []()
 
 ### Project 29 : []()
 <u>Description :</u> \
 <u>Technologies :</u> HTML  -  CSS\
-<u>Github Page :</u>
+<u>Github Page :</u> []()
 
 ## Back-end / Fullstack Projects
 I will be adding more projects soon, focusing on back-end and/or fullstack development.
