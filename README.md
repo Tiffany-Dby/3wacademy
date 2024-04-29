@@ -7,9 +7,7 @@ Below are the GitHub pages for each project stored in this repository, along wit
 ### Project 1 : [Position](https://github.com/Tiffany-Dby/3wacademy/tree/main/01-position-grid)
 __Description :__ Positionning with `position` & `grid`\
 __Technologies :__ HTML  -  CSS\
-__Github Pages :__
-  - [Grid version](https://tiffany-dby.github.io/3wacademy/01-position-grid/07-grid/)
-  - [Position version](https://tiffany-dby.github.io/3wacademy/01-position-grid/07-position/)
+__Github Pages :__ [Grid version](https://tiffany-dby.github.io/3wacademy/01-position-grid/07-grid/)  -  [Position version](https://tiffany-dby.github.io/3wacademy/01-position-grid/07-position/)
 
 ### Project 2 : [Mickey](https://github.com/Tiffany-Dby/3wacademy/tree/main/02-mickey)
 __Description :__ Positionning with `position` only\
