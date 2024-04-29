@@ -1,8 +1,10 @@
 # Projects
 During my course at 3W Academy, we worked on various projects to learn Web Development. This repository showcases some of the projects I created.
 
+
 ## Front-end Projects
 Below are the GitHub pages for each project stored in this repository, along with brief descriptions.
+
 
 ### Project 1 : [Position](https://github.com/Tiffany-Dby/3wacademy/tree/main/01-position-grid)
 __Description :__ Positionning with `position` & `grid`\
