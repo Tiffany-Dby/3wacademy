@@ -1,5 +1,7 @@
 # Projects
-Hey there! During my time at 3W Academy, we worked on lots of cool projects to learn Web Development. This repository shows off some of the stuff I made. More projects are on the way !\
+Hey there! During my time at 3W Academy, we worked on lots of cool projects to learn Web Development. This repository shows off some of the stuff I made. More projects are on the way !
+
+
 PS : Sorry if the French comments and/or instructions seem a bit random. They were part of our class materials.
 
 ## Table of Contents
