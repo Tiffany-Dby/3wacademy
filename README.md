@@ -1,5 +1,5 @@
 # Projects
-During my course at 3W Academy, we worked on various projects to learn Web Development. This repository showcases some of the projects I created.
+During my course at 3W Academy, we worked on various projects to learn Web Development. This repository showcases some of the projects I created.\
 More projects will be added.
 
 ## Table of Contents
