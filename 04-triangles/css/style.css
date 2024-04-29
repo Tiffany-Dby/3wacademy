@@ -1,0 +1,40 @@
+body {
+    padding: 3rem;
+    position: relative;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+}
+
+.black {
+    margin: 0 auto;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid #000;
+}
+
+.red {
+    margin: 2rem auto;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 100px solid #f00;
+}
+
+.blue {
+    position: absolute;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-right: 100px solid blue;
+    right: 50%;
+}
+
+.green {
+    position: absolute;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-left: 100px solid green;
+    right: 50%;
+    top: 450px;
+}

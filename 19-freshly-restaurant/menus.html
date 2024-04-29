@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Freshly Restaurant - Home</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&family=Merienda:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="shortcut icon" href="img/favicon.png" alt="Logo Freshly Restaurant (A fork and a knife)">
+
+    <script src="https://kit.fontawesome.com/bae0f6a2ae.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-container flex container">
+            <a href="index.html" class="header flex">
+                <div class="logo container">
+                    <img src="img/logo.png" alt="Logo Freshly : Food and Drink">
+                </div>
+                <div class="h1">
+                    <h1>Freshly Restaurant</h1>
+                </div>
+            </a>
+            <nav>
+                <ul class="nav-header flex">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a class="active" href="menus.html">Menus</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main container">
+        <section class="dishes-details">
+            <h2>Details of our menus</h2>
+            <p>Choose your main course according to your menu !</p>
+
+            <div class="controls-container">
+                <ul class="nav-controls flex">
+                    <li><button class="btn btn-controls" data-filter="all">All</button></li>
+                    <li><button class="btn btn-controls" data-filter=".category-meat">Meat</button></li>
+                    <li><button class="btn btn-controls" data-filter=".category-vegan">Vegan</button></li>
+                    <li><button class="btn btn-controls" data-filter=".category-fish">Fish</button></li>
+                </ul>
+            </div>
+
+            <div class="gallery-container">
+                <div class="gallery container flex">
+                    <div class="mix category-meat img" data-order="1">
+                        <figure>
+                            <img src="img/menus/meat-01.jpg" alt="Freshly burger">
+                            <figcaption class="overlay">
+                                <div class="flex">
+                                    <img src="img/fork-knife.svg" alt="Logo Fork and knife">
+                                    <p>Freshly burger</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="mix category-fish img" data-order="2">
+                        <figure>
+                            <img src="img/menus/fish-01.jpg" alt="Grilled mussels">
+                            <figcaption class="overlay">
+                                <div class="flex">
+                                    <img src="img/fork-knife.svg" alt="Logo Fork and knife">
+                                    <p>Grilled mussels</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="mix category-vegan img" data-order="3">
+                        <figure>
+                            <img src="img/menus/vegan-01.jpg" alt="Mixed vegetables">
+                            <figcaption class="overlay">
+                                <div class="flex">
+                                    <img src="img/fork-knife.svg" alt="Logo Fork and knife">
+                                    <p>Mixed vegetables</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="mix category-meat img" data-order="4">
+                        <figure>
+                            <img src="img/menus/meat-02.jpg" alt="Beef stew with pasta">
+                            <figcaption class="overlay">
+                                <div class="flex">
+                                    <img src="img/fork-knife.svg" alt="Logo Fork and knife">
+                                    <p>Beef stew with pasta</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="mix category-fish img" data-order="5">
+                        <figure>
+                            <img src="img/menus/fish-02.jpg" alt="Cajun shrimp">
+                            <figcaption class="overlay">
+                                <div class="flex">
+                                    <img src="img/fork-knife.svg" alt="Logo Fork and knife">
+                                    <p>Cajun shrimp</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="mix category-vegan img" data-order="6">
+                        <figure>
+                            <img src="img/menus/vegan-02.jpg" alt="Grilled eggplants">
+                            <figcaption class="overlay">
+                                <div class="flex">
+                                    <img src="img/fork-knife.svg" alt="Logo Fork and knife">
+                                    <p>Grilled eggplants</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="mix category-meat img" data-order="7">
+                        <figure>
+                            <img src="img/menus/meat-03.jpg" alt="Freshly kebabs">
+                            <figcaption class="overlay">
+                                <div class="flex">
+                                    <img src="img/fork-knife.svg" alt="Logo Fork and knife">
+                                    <p>Freshly kebabs</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="mix category-fish img" data-order="8">
+                        <figure>
+                            <img src="img/menus/fish-03.jpg" alt="Grilled salmon">
+                            <figcaption class="overlay">
+                                <div class="flex">
+                                    <img src="img/fork-knife.svg" alt="Logo Fork and knife">
+                                    <p>Grilled salmon</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="mix category-vegan img" data-order="9">
+                        <figure>
+                            <img src="img/menus/vegan-03.jpg" alt="Vegetable Jambalaya">
+                            <figcaption class="overlay">
+                                <div class="flex">
+                                    <img src="img/fork-knife.svg" alt="Logo Fork and knife">
+                                    <p>Vegetable Jambalaya</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="dishes-details">
+            <h2>Desserts</h2>
+            <p>Here are the deserts you can choose to finish your meal (included in your menu).</p>
+
+            <div class="gallery-container">
+                <div class="gallery container flex">
+                    <div class="img">
+                        <figure>
+                            <img src="img/menus/desert-01.jpg" alt="Tiramisu">
+                            <figcaption class="overlay">
+                                <div class="flex">
+                                    <img src="img/fork-knife.svg" alt="Logo Fork and knife">
+                                    <p>Tiramisu</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="img">
+                        <figure>
+                            <img src="img/menus/desert-02.jpg" alt="Freshly Pancakes">
+                            <figcaption class="overlay">
+                                <div class="flex">
+                                    <img src="img/fork-knife.svg" alt="Logo Fork and knife">
+                                    <p>Freshly Pancakes</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="img">
+                        <figure>
+                            <img src="img/menus/desert-03.jpg" alt="Redberries cup">
+                            <figcaption class="overlay">
+                                <div class="flex">
+                                    <img src="img/fork-knife.svg" alt="Logo Fork and knife">
+                                    <p>Redberries cup</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+        </section>
+
+        <section class="dishes-details">
+            <h2>Cocktails</h2>
+            <p>Soft drinks are included, but if you want you can order one of our excellent cocktails (not included in the menu).</p>
+
+            <div class="gallery-container">
+                <div class="gallery container flex">
+                    <div class="img">
+                        <figure>
+                            <img src="img/menus/drink-01.jpg" alt="Winter Whiskey">
+                            <figcaption class="overlay">
+                                <div class="flex">
+                                    <img src="img/fork-knife.svg" alt="Logo Fork and knife">
+                                    <p>Winter Whiskey</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="img">
+                        <figure>
+                            <img src="img/menus/drink-02.jpg" alt="Paloma cocktail">
+                            <figcaption class="overlay">
+                                <div class="flex">
+                                    <img src="img/fork-knife.svg" alt="Logo Fork and knife">
+                                    <p>Paloma cocktail</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="img">
+                        <figure>
+                            <img src="img/menus/drink-03.jpg" alt="Bellini cocktail">
+                            <figcaption class="overlay">
+                                <div class="flex">
+                                    <img src="img/fork-knife.svg" alt="Logo Fork and knife">
+                                    <p>Bellini cocktail</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer container flex">
+            <div>
+                <div class="footer-titles">
+                    <h4>Opening hours</h4>
+                </div>
+                <ul>
+                    <li>Monday : Closed</li>
+                    <li>Tue-Wed : 9am - 10pm</li>
+                    <li>Thu-Fri : 9am - 10pm</li>
+                    <li>Sat-Sun : 5pm - 10pm</li>
+                </ul>
+            </div>
+            <div>
+                <div class="footer-titles">
+                    <h4>Contact</h4>
+                </div>
+                <p>13 Christopher Street<br>New York,<br>NY 10014-3543</p>
+                <a class="tel" href="tel:+0120008009999">+01 2000 800 9999</a>
+            </div>
+            <div>
+                <div class="footer-titles">
+                    <h4>Social networks</h4>
+                </div>
+                <ul class="nav-footer flex">
+                    <li>
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-brands fa-pinterest-p"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script/mixitup.min.js"></script>
+
+    <script type="text/javascript">
+        const galleryElt = $('.gallery');
+
+        let mixer = mixitup(galleryElt);
+    </script>
+</body>
+
+</html>

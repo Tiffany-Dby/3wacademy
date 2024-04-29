@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste de courses</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Liste de courses</h1>
+        </header>
+        <main>
+            <div id="message"></div>
+            <section class="sectionProduct">
+                <p class="newProductBox">
+                    <label for="newProduct">Nouveau produit : </label>
+                    <input type="text" id="newProduct">
+                </p>
+                <p class="toolBtn">
+                    <button class="btn" id="addProduct">Ajouter un produit</button>
+                    <button class="btn" id="removeProduct">Supprimer un produit</button>
+                    <button class="btn" id="removeAllProducts">Supprimer tous les produits</button>
+                </p>
+            </section>
+
+            <section class="ecran">
+
+                <p>La liste contient <span id="numberPoducts">0</span> produit(s) :</p>
+                <ul id="displayProducts"></ul>
+
+            </section>
+        </main>
+
+
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

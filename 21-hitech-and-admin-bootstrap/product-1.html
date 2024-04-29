@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HiTech.NET - Produit AOC 24B1XHS</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand text-white" href="#">
+                    <div class="d-flex gap-2">
+                        <img src="img/logo.svg" alt="Logo HiTech.NET" width="30" height="30">
+                        <h2 class="h4">HiTech.NET</h2>
+                    </div>
+                </a>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <h1 class="h3 text-secondary mt-2">Produit : AOC 24B1XHS</h1>
+                    <ul class="navbar-nav ms-auto me-5">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-secondary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="img/avatar.png" alt="Avatar utilisateur" width="45" height="45">
+            Bob
+          </a>
+                            <ul class="dropdown-menu w-75">
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-person-fill"></i> Mon compte</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-power"></i> Déconnexion</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <aside class="d-none d-md-block col-md-4 py-5 bg-light">
+                    <nav class="container">
+                        <div class="d-flex flex-column">
+                            <h3 class="d-flex gap-1 h4 text-secondary pb-1"><i class="bi bi-house-fill"></i>Accueil</h3>
+                            <a href="#" class="btn text-primary w-100 text-start">Tableau de bord</a>
+                        </div>
+                        <div class="d-flex flex-column mt-3">
+                            <h3 class="d-flex gap-1 h4 text-secondary pb-1"><i class="bi bi-globe-americas"></i>Site web</h3>
+                            <a href="#" class="btn text-primary w-100 text-start">Gestion des rubriques</a>
+                            <a href="#" class="btn text-primary w-100 text-start">Gestion des actualités</a>
+                        </div>
+                        <div class="d-flex flex-column mt-3">
+                            <h3 class="d-flex gap-1 h4 text-secondary pb-1"><i class="bi bi-basket2-fill"></i>Boutique</h3>
+                            <a href="#" class="btn text-primary w-100 text-start">Gestion des rayons</a>
+                            <a href="products.html" class="btn btn-primary w-100 text-start">Gestion des produits</a>
+                            <a href="#" class="btn text-primary w-100 text-start">Gestion des commandes</a>
+                        </div>
+                        <div class="d-flex flex-column mt-3">
+                            <h3 class="d-flex gap-1 h4 text-secondary pb-1"><i class="bi bi-gear-fill"></i>Paramètres</h3>
+                            <a href="#" class="btn text-primary w-100 text-start">Gestion des utilisateurs</a>
+                            <a href="#" class="btn text-primary w-100 text-start">Gestion des rôles</a>
+                            <a href="#" class="btn text-primary w-100 text-start">Préférences</a>
+                        </div>
+                    </nav>
+                </aside>
+                <div class="col-md-8">
+                    <form class="mt-5 mb-3">
+                        <div class="d-md-flex justify-content-between">
+                            <div>
+                                <button class="btn btn-outline-secondary" type="clear"><i class="bi bi-x-lg"></i> Annuler les modifications</button>
+                            </div>
+                            <div>
+                                <button class="btn btn-primary" type="submit"><i class="bi bi-check-lg"></i> Valider et enregistrer la fiche</button>
+                            </div>
+                        </div>
+
+                        <fieldset class="mt-3 container-fluid bg-light py-4">
+                            <legend>Gestion</legend>
+
+                            <div class="row pt-3">
+                                <p class="col-md-3">Statut</p>
+                                <div class="col-md-9">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="status" id="radioWaiting" value="option1">
+                                        <label class="form-check-label text-secondary" for="radioWaiting">En attente de mise en ligne</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="status" id="radioOnline" value="option2" checked>
+                                        <label class="form-check-label text-success" for="radioOnline">En ligne</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="status" id="radioRemoved" value="option3">
+                                        <label class="form-check-label text-danger" for="radioRemoved">Retiré</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row pt-3">
+                                <p class="col-md-3">Boutique</p>
+                                <div class="col-md-9">
+                                    <select class="form-select" aria-label="Selectionner la catégorie de boutique">
+                                    <option value="components" selected>Périphériques & composants</option>
+                                    <option value="computer">Ordinateurs</option>
+                                    <option value="mobile">Téléphones</option>
+                                    <option value="connected">Objets connectés</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row pt-3">
+                                <p class="col-md-3">Rayon</p>
+                                <div class="col-md-9">
+                                    <select class="form-select" aria-label="Selectionner le rayon">
+                                    <option value="monitors" selected>Ecrans d'ordinateur</option>
+                                    <option value="">Rayon2</option>
+                                    <option value="">Rayon3</option>
+                                    <option value="">Rayon4</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                        </fieldset>
+
+                        <fieldset class="mt-3 container-fluid bg-light py-4">
+                            <legend>Présentation</legend>
+
+                            <div class="row mb-3">
+                                <div class="col-md-3">
+                                    <label for="brand">Marque</label>
+                                </div>
+                                <div class="col-md-9">
+                                    <input class="form-control" type="text" aria-label="Brand" name="brand" id="brand" value="AOC">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-3">
+                                    <label for="reference">Référence du produit</label>
+                                </div>
+                                <div class="col-md-9">
+                                    <input class="form-control" type="text" aria-label="Reference" name="reference" id="reference" value="24B1XHS">
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col-md-3">
+                                    <p>Prix</p>
+                                </div>
+                                <div class="col-md-9">
+                                    <div class="input-group">
+                                        <span class="input-group-text">Prix</span>
+                                        <input type="text" class="form-control" aria-label="Prix en euro" value="109.94">
+                                        <span class="input-group-text">€</span>
+                                        <span class="input-group-text">éco-participation</span>
+                                        <input type="text" class="form-control" aria-label="Eco-participation en euro" value="1.70">
+                                        <span class="input-group-text">€</span>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col-md-3">
+                                    <label for="description" class="form-label">Description principale (MarkDown)</label>
+                                </div>
+                                <div class="col-md-9">
+                                    <textarea class="form-control" name="description" id="description" rows="12">Un écran 23,8" Full HD et sans bords; c'est sûrement votre futur moniteur pour la maison ou le bureau. AOC vous propose le 24B1XHS, un produit élégant au look doté d'une dalle VA avec un temps de réponse rapide de 7 ms en résolution 1920 x 1080 pixels. Cet écran WLED très fonctionnel offre un contenu avec un fréquence de 60 Hz, idéal pour tous les usages du quotidien.
+                                    
+- Écran large de 23.8" avec résolution Full HD (1920 x 1080)
+- Des couleurs riches et nuancées avec un contraste dynamique de 20.000.000:1 (typique 1000:1)
+- Temps de réponse de 7 ms
+- Dalle IPS
+- Luminosité 250 cd/m²
+- Modes Flicker-Free et Anti-lumière bleue (Low blue mode)
+- Connecteurs : HDMI 1.4, VGA 
+- Design sans contour & profil plat 
+- Consommation d'énergie modeste : 25 Watts 
+- Dimensions (avec support) : 419.8 x 540.1 x 186.8 mm
+- Poids : 2.48 kg</textarea>
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <fieldset class="mt-3 container-fluid bg-light py-4">
+                            <legend>Photos</legend>
+                            <div class="row mb-3">
+                                <div class="col-md-3">
+                                    <label class="form-label" for="photo1">Photo 1</label>
+                                </div>
+                                <div class="col-md-9">
+                                    <input type="file" class="form-control" id="photo1">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-3">
+                                    <label class="form-label" for="photo2">Photo 2</label>
+                                </div>
+                                <div class="col-md-9">
+                                    <input type="file" class="form-control" id="photo2">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-3">
+                                    <label class="form-label" for="photo3">Photo 3</label>
+                                </div>
+                                <div class="col-md-9">
+                                    <input type="file" class="form-control" id="photo3">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-3">
+                                    <label class="form-label" for="photo4">Photo 4</label>
+                                </div>
+                                <div class="col-md-9">
+                                    <input type="file" class="form-control" id="photo4">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-3">
+                                    <label class="form-label" for="photo5">Photo 5</label>
+                                </div>
+                                <div class="col-md-9">
+                                    <input type="file" class="form-control" id="photo5">
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <fieldset class="mt-5 container-fluid bg-light py-4">
+                            <legend>Descriptif</legend>
+                            <div class="row mb-3">
+                                <div class="col-md-3">
+                                    <label for="titleDescription1">Titre</label>
+                                </div>
+                                <div class="col-md-9">
+                                    <input class="form-control" type="text" aria-label="Titre" name="titleDescription1" id="titleDescription1" value="Un moniteur Full HD performant et tout en finesse">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-3">
+                                    <label class="form-label" for="imageDescription1">Image</label>
+                                </div>
+                                <div class="col-md-9">
+                                    <input type="file" class="form-control" id="imageDescription1">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-3">
+                                    <label for="description" class="form-label">Texte</label>
+                                </div>
+                                <div class="col-md-9">
+                                    <textarea class="form-control" name="descriptionDescription1" id="descriptionDescription1" rows="6">Issu de la série B1, le moniteur AOC 24B1XHS dispose de tous les atouts indispensables pour offrir une expérience utilisateur agréable. Son écran Full HD de 23.8" s'accompagne d'une dalle IPS ainsi que d'un temps de réponse de 7 ms pour une image toujours performante. Aussi, le 24B1XHS séduit par son profil plat et son design sans contour qui favorise le plaisir visuel et l'immersion. Ce moniteur WLED trouvera facilement une place de choix sur votre bureau pour toutes vos utilisations quotidiennes.</textarea>
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <fieldset class="mt-3 container-fluid bg-light py-4">
+                            <legend>Descriptif 2</legend>
+                            <div class="row mb-3">
+                                <div class="col-md-3">
+                                    <label for="titleDescription2">Titre</label>
+                                </div>
+                                <div class="col-md-9">
+                                    <input class="form-control" type="text" aria-label="Titre" name="titleDescription2" id="titleDescription2" value="Appréciez le design sans contour">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-3">
+                                    <label class="form-label" for="imageDescription2">Image</label>
+                                </div>
+                                <div class="col-md-9">
+                                    <input type="file" class="form-control" id="imageDescription2">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-3">
+                                    <label for="description" class="form-label">Texte</label>
+                                </div>
+                                <div class="col-md-9">
+                                    <textarea class="form-control" name="descriptionDescription2" id="descriptionDescription2" rows="6">En plus du look moderne et attrayant qu'il procure, le design sans contour permet des configurations à plusieurs écrans sans interruption. Votre curseur, vos fenêtres ne sont plus perdus dans les abysses sombres des contours lorsque plusieurs écrans sont placés les uns à côté des autres. Le profil plat de ce moniteur AOC offre de nombreux avantages. Très élégant sous tous les angles, il devient un choix idéal dans les espaces publics. Sa finesse et sa conception moderne lui permettent d'occuper moins de place sur le bureau.</textarea>
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <fieldset class="mt-3 container-fluid bg-light py-4">
+                            <legend>Descriptif 3</legend>
+                            <div class="row mb-3">
+                                <div class="col-md-3">
+                                    <label for="titleDescription3">Titre</label>
+                                </div>
+                                <div class="col-md-9">
+                                    <input class="form-control" type="text" aria-label="Titre" name="titleDescription3" id="titleDescription3" value="Tout le confort nécessaire">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-3">
+                                    <label class="form-label" for="imageDescription3">Image</label>
+                                </div>
+                                <div class="col-md-9">
+                                    <input type="file" class="form-control" id="imageDescription3">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-3">
+                                    <label for="description" class="form-label">Texte</label>
+                                </div>
+                                <div class="col-md-9">
+                                    <textarea class="form-control" name="descriptionDescription3" id="descriptionDescription3" rows="6">Agréable visuellement et intuitif, ce moniteur dispose également d'une dalle IPS. Cette dernière reproduit des couleurs éclatantes et offre de très larges angles de vue. De cette façon, les images gardent toujours un excellent aspect et une parfaite précision, quel que soit l'angle auquel vous regardez l'écran.Vous voulez utiliser votre écran même dans un environnement très lumineux, à côté d'une fenêtre au soleil par exemple ? La haute luminosité de 250 cd/m² garantit une bonne visibilité, même dans des conditions difficiles.</textarea>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+
+                </div>
+            </div>
+    </main>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

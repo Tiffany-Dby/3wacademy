@@ -1,0 +1,74 @@
+main {
+    width: 500px;
+    height: 500px;
+    margin: 5rem auto 0;
+    background-color: burlywood;
+    border: 1px solid #000;
+    position: relative;
+}
+
+main>* {
+    width: 0;
+    height: 0;
+    position: absolute;
+    overflow: hidden;
+}
+
+.rouge {
+    border-right: 150px solid transparent;
+    border-bottom: 150px solid transparent;
+    border-top: 150px solid red;
+}
+
+.black {
+    border-right: 150px solid transparent;
+    border-left: 150px solid transparent;
+    border-bottom: 150px solid black;
+}
+
+.jaune {
+    border-bottom: 350px solid transparent;
+    border-left: 350px solid transparent;
+    border-top: 350px solid yellow;
+    right: 0;
+}
+
+.orange {
+    border-top: 350px solid transparent;
+    border-right: 350px solid transparent;
+    border-bottom: 350px solid orange;
+    left: 0;
+    bottom: 0;
+}
+
+.violet {
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-top: 150px solid violet;
+    top: 150px;
+    left: 0;
+}
+
+.gray {
+    border-bottom: 150px solid transparent;
+    border-top: 150px solid transparent;
+    border-right: 150px solid gray;
+    left: 150px;
+    top: 150px;
+}
+
+.teal {
+    border-top: 150px solid transparent;
+    border-bottom: 150px solid transparent;
+    border-left: 150px solid teal;
+    left: 300px;
+    top: 150px;
+}
+
+.vert {
+    border-left: 150px solid transparent;
+    border-top: 150px solid transparent;
+    border-bottom: 150px solid green;
+    right: 0;
+    bottom: 0;
+}

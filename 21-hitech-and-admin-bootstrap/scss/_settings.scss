@@ -1,0 +1,131 @@
+/* ---------- GENERAL SETTINGS */
+
+/* ----- UTILITY CLASSES */
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img img {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ----- */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+:focus {
+  outline: 2px solid black;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: var(--default-font-size);
+  line-height: var(--line-height);
+  background-color: var(--bg-body);
+  color: var(--text);
+  margin: 0;
+
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  strong {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+  }
+
+  h2,
+  h3 {
+    color: var(--titles);
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1rem;
+
+    &::after {
+      content: "";
+      background-image: radial-gradient(
+        circle,
+        var(--bg-dots) 0,
+        var(--bg-dots) 4px,
+        transparent 5px,
+        transparent 100%
+      );
+      background-repeat: repeat-x;
+      background-position: left center;
+      background-size: 30px 15px;
+    }
+  }
+
+  h1,
+  strong {
+    font-size: 3.6rem;
+    margin: 0;
+  }
+
+  h2,
+  h4:not(.brand h4) {
+    font-size: 2.4rem;
+  }
+
+  h1 {
+    color: var(--titles);
+    margin-top: 6rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+  }
+
+  a,
+  a:visited {
+    text-decoration: none;
+    transition: color 0.5s;
+  }
+
+  button {
+    border: 0;
+    background-color: transparent;
+    color: var(--links);
+    cursor: pointer;
+
+    &:hover {
+      color: var(--hover);
+    }
+  }
+
+  .btn {
+    background-color: var(--links);
+    color: var(--bg-primary-color);
+    padding: 0.75rem 1rem;
+    font-weight: 500;
+    transition: background-color 0.5s color 0.5s;
+
+    &:hover {
+      background-color: var(--hover-footer);
+      color: var(--hover);
+    }
+  }
+}

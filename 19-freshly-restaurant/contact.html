@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Freshly Restaurant - Home</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&family=Merienda:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="shortcut icon" href="img/favicon.png" alt="Logo Freshly Restaurant (A fork and a knife)">
+
+    <script src="https://kit.fontawesome.com/bae0f6a2ae.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-container flex container">
+            <a href="index.html" class="header flex">
+                <div class="logo container">
+                    <img src="img/logo.png" alt="Logo Freshly : Food and Drink">
+                </div>
+                <div class="h1">
+                    <h1>Freshly Restaurant</h1>
+                </div>
+            </a>
+            <nav>
+                <ul class="nav-header flex">
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menus.html">Menus</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main container">
+        <section>
+            <h2>Contact us</h2>
+
+            <p>If your want to make a reservation, please complete this form.</p>
+
+            <p><em>Fields with <span>*</span> are required.</em></p>
+
+            <div class="form-container flex">
+                <form class="flex" action="">
+                    <div class="fieldsets-container flex">
+                        <fieldset class="flex">
+                            <legend>Reservation</legend>
+
+                            <div>
+                                <label for="date">Date</label>
+                                <input type="date" name="date" id="date">
+                            </div>
+
+                            <div>
+                                <label for="time">Time</label>
+                                <input type="time" name="time" id="time">
+                            </div>
+
+                            <div>
+                                <label for="guestsNbr">Number of guests</label>
+                                <input type="number" name="guestsNbr" id="guestsNbr" min="1" max="50">
+                            </div>
+                        </fieldset>
+
+                        <fieldset class="flex">
+                            <legend>Details</legend>
+
+                            <div>
+                                <label for="name">Name</label>
+                                <input type="text" name="name" id="name">
+                            </div>
+
+                            <div>
+                                <label class="label-email" for="email">Email</label>
+                                <input type="email" name="email" id="email">
+                            </div>
+
+                            <div>
+                                <label for="telephone">Telephone</label>
+                                <input type="tel" name="telephone" id="telephone">
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div class="textarea">
+                        <label for="message" class="message">Further request</label>
+                        <textarea name="message" id="message"></textarea>
+                    </div>
+
+                    <input type="submit" value="reserve" class="btn btn-submit">
+                </form>
+            </div>
+        </section>
+
+
+        <section>
+            <h2>Our location</h2>
+            <iframe width="100%" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=-74.00117039680482%2C40.733514946628425%2C-74.00047302246095%2C40.73463075303278&amp;layer=mapnik"></iframe>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer container flex">
+            <div>
+                <div class="footer-titles">
+                    <h4>Opening hours</h4>
+                </div>
+                <ul>
+                    <li>Monday : Closed</li>
+                    <li>Tue-Wed : 9am - 10pm</li>
+                    <li>Thu-Fri : 9am - 10pm</li>
+                    <li>Sat-Sun : 5pm - 10pm</li>
+                </ul>
+            </div>
+            <div>
+                <div class="footer-titles">
+                    <h4>Contact</h4>
+                </div>
+                <p>13 Christopher Street<br>New York,<br>NY 10014-3543</p>
+                <a class="tel" href="tel:+0120008009999">+01 2000 800 9999</a>
+            </div>
+            <div>
+                <div class="footer-titles">
+                    <h4>Social networks</h4>
+                </div>
+                <ul class="nav-footer flex">
+                    <li>
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-brands fa-pinterest-p"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.banner-slider').slick({
+                dots: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+            });
+        });
+    </script>
+</body>
+
+</html>

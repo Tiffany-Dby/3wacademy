@@ -1,0 +1,137 @@
+/* ********************
+GENERAL SETTINGS
+******************** */
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+@font-face {
+    font-family: 'Courgette';
+    src: url(../fonts/Courgette-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container {
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-left {
+    float: left;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.img-right {
+    float: right;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.clear {
+    clear: both;
+}
+
+body {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 1.8rem;
+    color: #444;
+    line-height: 1.5;
+}
+
+header,
+footer {
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+blockquote,
+nav ol {
+    font-family: 'Courgette', cursive;
+    color: #003884;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3.5rem;
+    color: #4f89b9;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+span {
+    color: #003884;
+    font-weight: 600;
+}
+
+em {
+    color: #4f89b9;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: #003884;
+}
+
+/* ********************
+MAIN LAYOUT
+******************** */
+
+/* *****
+HEADER
+***** */
+
+h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+/* *****
+BLOCKQUOTE
+***** */
+
+blockquote {
+    background-color: #d7e1ef;
+}
+
+blockquote p {
+    font-size: 2.5rem;
+}
+
+/* *****
+NAV
+***** */
+
+nav li {
+    text-align: left;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+
+/* *****
+FOOTER
+***** */
+
+footer {
+    border-top: 2px solid #003884;
+}
+
+.social-media {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}

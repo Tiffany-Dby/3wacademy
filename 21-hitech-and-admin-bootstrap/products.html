@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HiTech.NET - Produits</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand text-white" href="#">
+                    <div class="d-flex gap-2">
+                        <img src="img/logo.svg" alt="Logo HiTech.NET" width="30" height="30">
+                        <h2 class="h4">HiTech.NET</h2>
+                    </div>
+                </a>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <h1 class="h3 text-secondary mt-2">Gestion des produits</h1>
+                    <ul class="navbar-nav ms-auto me-5">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-secondary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="img/avatar.png" alt="Avatar utilisateur" width="45" height="45">
+            Bob
+          </a>
+                            <ul class="dropdown-menu w-75">
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-person-fill"></i> Mon compte</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-power"></i> Déconnexion</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <aside class="d-none d-md-block col-md-4 py-5 bg-light">
+                    <nav class="container">
+                        <div class="d-flex flex-column">
+                            <h3 class="d-flex gap-1 h4 text-secondary pb-1"><i class="bi bi-house-fill"></i>Accueil</h3>
+                            <a href="#" class="btn text-primary w-100 text-start">Tableau de bord</a>
+                        </div>
+                        <div class="d-flex flex-column mt-3">
+                            <h3 class="d-flex gap-1 h4 text-secondary pb-1"><i class="bi bi-globe-americas"></i>Site web</h3>
+                            <a href="#" class="btn text-primary w-100 text-start">Gestion des rubriques</a>
+                            <a href="#" class="btn text-primary w-100 text-start">Gestion des actualités</a>
+                        </div>
+                        <div class="d-flex flex-column mt-3">
+                            <h3 class="d-flex gap-1 h4 text-secondary pb-1"><i class="bi bi-basket2-fill"></i>Boutique</h3>
+                            <a href="#" class="btn text-primary w-100 text-start">Gestion des rayons</a>
+                            <a href="products.html" class="btn btn-primary w-100 text-start">Gestion des produits</a>
+                            <a href="#" class="btn text-primary w-100 text-start">Gestion des commandes</a>
+                        </div>
+                        <div class="d-flex flex-column mt-3">
+                            <h3 class="d-flex gap-1 h4 text-secondary pb-1"><i class="bi bi-gear-fill"></i>Paramètres</h3>
+                            <a href="#" class="btn text-primary w-100 text-start">Gestion des utilisateurs</a>
+                            <a href="#" class="btn text-primary w-100 text-start">Gestion des rôles</a>
+                            <a href="#" class="btn text-primary w-100 text-start">Préférences</a>
+                        </div>
+                    </nav>
+                </aside>
+                <div class="col-md-8">
+                    <form class="row mt-5 mb-3 justify-content-between">
+                        <div class="col-md-7">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input class="form-control mr-sm-2" type="search" aria-label="Search">
+                                </div>
+                                <div class="col-md-6">
+                                    <button class="btn btn-outline-secondary" type="submit">Rechercher</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="row text-md-end">
+                                <div>
+                                    <a href="product-empty.html" class="btn btn-primary">Ajouter un produit</a>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                    <div class="table-responsive">
+
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                                <tr class="table-dark">
+                                    <th>Statue</th>
+                                    <th>Boutique</th>
+                                    <th>Rayon</th>
+                                    <th>Produit</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="text-success">En boutique</td>
+                                    <td>Périphériques & composants</td>
+                                    <td>Ecrans d'ordinateur</td>
+                                    <td>AOC 24B1XHS</td>
+                                    <td class="text-end">
+                                        <a href="" class="btn btn-outline-danger"><i class="bi bi-archive-fill"></i> Retirer</a>
+                                        <a href="product-1.html" class="btn btn-outline-secondary my-2"><i class="bi bi-pencil-fill"></i> Modifier</a>
+                                        <a href="" class="btn btn-outline-secondary"><i class="bi bi-tags-fill"></i> Caractéristiques</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="text-success">En boutique</td>
+                                    <td>Périphériques & composants</td>
+                                    <td>Ecrans d'ordinateur</td>
+                                    <td>AOC 24B2XHS</td>
+                                    <td class="text-end">
+                                        <a href="" class="btn btn-outline-danger"><i class="bi bi-archive-fill"></i> Retirer</a>
+                                        <a href="" class="btn btn-outline-secondary my-2"><i class="bi bi-pencil-fill"></i> Modifier</a>
+                                        <a href="" class="btn btn-outline-secondary"><i class="bi bi-tags-fill"></i> Caractéristiques</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="text-danger">Retiré</td>
+                                    <td>Périphériques & composants</td>
+                                    <td>Ecrans d'ordinateur</td>
+                                    <td>AOC 24B3XHS</td>
+                                    <td class="text-end">
+                                        <a href="" class="btn btn-outline-success"><i class="bi bi-check-square-fill"></i> Remettre</a>
+                                        <a href="" class="btn btn-outline-secondary my-2"><i class="bi bi-pencil-fill"></i> Modifier</a>
+                                        <a href="" class="btn btn-outline-secondary"><i class="bi bi-tags-fill"></i> Caractéristiques</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="text-secondary">En attente</td>
+                                    <td>Périphériques & composants</td>
+                                    <td>Ecrans d'ordinateur</td>
+                                    <td>AOC 24B4XHS</td>
+                                    <td class="text-end">
+                                        <a href="" class="btn btn-outline-success"><i class="bi bi-check-square-fill"></i> Mettre en boutique</a>
+                                        <a href="" class="btn btn-outline-secondary my-2"><i class="bi bi-pencil-fill"></i> Modifier</a>
+                                        <a href="" class="btn btn-outline-secondary"><i class="bi bi-tags-fill"></i> Caractéristiques</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <nav class="d-flex justify-content-center" aria-label="Page navigation">
+                            <ul class="pagination">
+                                <li class="page-item">
+                                    <a class="page-link disabled" href="#" aria-label="Previous">
+                                <span aria-hidden="true"><i class="bi bi-caret-left-fill"></i></span>
+                            </a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link active" href="#">1</a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#">2</a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#">3</a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#">4</a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#">5</a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Next">
+                                <span aria-hidden="true"><i class="bi bi-caret-right-fill"></i></span>
+                            </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+    </main>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

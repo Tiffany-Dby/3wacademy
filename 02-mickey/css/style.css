@@ -1,0 +1,141 @@
+body {
+    background-color: #fefefe;
+}
+
+.container {
+    width: 800px;
+    height: 700px;
+    margin: 0 auto;
+    background-color: #58acfa;
+    position: relative;
+}
+
+.container>* {
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.ear,
+.head,
+.retina,
+.nose,
+.mouth {
+    background-color: #000;
+}
+
+.eyeBorder,
+.cheek,
+.face {
+    background-color: #f7be81;
+}
+
+.eyeBall,
+.glossy {
+    background-color: #fefefe;
+}
+
+.ear {
+    width: 300px;
+    height: 300px;
+}
+
+.earRight {
+    right: 0;
+}
+
+.head {
+    width: 500px;
+    height: 500px;
+    left: 150px;
+    top: 100px;
+}
+
+.eyeBorder {
+    width: 200px;
+    height: 300px;
+    top: 150px;
+}
+
+.borderLeft {
+    left: 225px;
+}
+
+.borderRight {
+    right: 225px;
+}
+
+.eyeBall {
+    width: 70px;
+    height: 150px;
+    z-index: 5;
+    top: 225px;
+}
+
+.eyeBallLeft {
+    left: 320px;
+}
+
+.eyeBallRight {
+    right: 320px;
+}
+
+.retina {
+    width: 30px;
+    height: 50px;
+    z-index: 6;
+    top: 275px;
+}
+
+.retinaLeft {
+    left: 350px;
+}
+
+.retinaRight {
+    right: 350px;
+}
+
+.nose {
+    width: 170px;
+    height: 90px;
+    top: 350px;
+    left: 315px;
+    z-index: 7;
+}
+
+.glossy {
+    width: 40px;
+    height: 20px;
+    right: 410px;
+    top: 370px;
+    z-index: 8;
+}
+
+.cheek {
+    width: 200px;
+    height: 200px;
+    top: 350px;
+}
+
+.cheekLeft {
+    left: 150px;
+}
+
+.cheekRight {
+    right: 150px;
+}
+
+.mouth {
+    width: 60px;
+    height: 80px;
+    right: 400px;
+    bottom: 125px;
+    z-index: 9;
+}
+
+.face {
+    width: 350px;
+    height: 350px;
+    left: 225px;
+    bottom: 55px;
+}

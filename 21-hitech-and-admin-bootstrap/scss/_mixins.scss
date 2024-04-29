@@ -1,0 +1,25 @@
+/* ---------- MIXINS */
+
+@mixin centerChild {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin centerColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin directionColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin alignChildren($space) {
+    display: flex;
+    justify-content: $space;
+    align-items: center;
+}

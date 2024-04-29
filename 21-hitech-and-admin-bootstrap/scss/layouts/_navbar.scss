@@ -1,0 +1,207 @@
+/* ---------- NAVBAR */
+
+/* ----- NAV-ACCESS */
+
+.nav-access {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+
+  a {
+    display: block;
+    padding: 1em;
+    white-space: nowrap;
+    position: absolute;
+    opacity: 0;
+    background-color: black;
+    color: #fff;
+    text-decoration: underline;
+    font-size: 1.8rem;
+
+    &:focus {
+      opacity: 1;
+      outline: 2px solid black;
+    }
+  }
+}
+
+/* ----- ARIANE */
+
+.nav-ariane {
+  display: none;
+
+  @media screen and (min-width: 960px) {
+    display: block;
+  }
+
+  ul {
+    display: flex;
+    gap: 1.5rem;
+
+    li {
+      a {
+        text-decoration: underline;
+
+        span {
+          margin-right: 0.5rem;
+        }
+      }
+    }
+
+    li+li::before {
+      content: "❯";
+      margin-right: 1.5rem;
+      font-weight: 600;
+      color: var(--links);
+    }
+  }
+}
+
+/* ----- MENU */
+
+.menu {
+  background-color: var(--bg-menu);
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  a {
+    color: var(--links);
+
+    &:hover {
+      color: var(--hover);
+    }
+  }
+
+  >ul {
+    @include directionColumn;
+
+    @media screen and (min-width: 480px) {
+      flex-direction: row;
+      flex-wrap: wrap;
+      position: relative;
+    }
+
+    >li {
+      width: 100%;
+      padding: 1rem 0;
+      .nav-category {
+        @include centerChild;
+        gap: 1rem;
+        font-weight: 500;
+        font-size: 1.6rem;
+
+        [class^="icon-"] {
+          font-size: 2.5rem;
+        }
+      }
+
+      @media screen and (min-width: 480px) {
+        width: 50%;
+
+        &:nth-child(1) {
+          width: 45%;
+        }
+        &:nth-child(2) {
+          width: 55%;
+        }
+        &:nth-child(n+3)>ul {
+          top: 100%;
+        }
+      }
+      @media screen and (min-width: 960px) {
+        width: 23%;
+
+        &:nth-child(1) {
+          width: 23%;
+        }
+
+        &:nth-child(2) {
+          width: 31%;
+        }
+      }
+
+      &:hover {
+        background-color: var(--bg-main);
+      }
+
+      &:hover>ul {
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding: 1rem;
+        background-color: var(--bg-main);
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+        z-index: 55;
+
+        @media screen and (min-width: 480px) {
+          box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+        }
+
+        @media screen and (min-width: 960px) {
+          justify-content: start;
+          box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+
+          >li {
+            width: 24%;
+          }
+        }
+      }
+
+      >ul {
+        display: none;
+        margin: 0 auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+
+        @media screen and (min-width: 480px) {
+          top: 50%;
+        }
+
+        @media screen and (min-width: 960px) {
+          top: 100%;
+        }
+        
+        >li {
+          @include directionColumn;
+
+          .nav-subcategory {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+
+            @media screen and (min-width: 480px) {
+              font-size: 2.5rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/* ----- NAV-MAIN */
+
+.nav-main {
+  margin-top: 3rem;
+
+  ul {
+    @media screen and (min-width: 960px) {
+      display: flex;
+      gap: 3rem;
+    }
+
+    li {
+      a {
+        text-decoration: underline;
+      }
+    }
+  }
+}

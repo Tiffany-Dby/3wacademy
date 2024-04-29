@@ -1,0 +1,456 @@
+/* ********** 
+TOOLS
+********** */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    --color1: #fff;
+    --color2: #333;
+    --color3: #007eb3;
+}
+
+body {
+    font-size: 1.6rem;
+    margin: 0;
+    line-height: 1.5;
+    font-family: 'Lato', sans-serif;
+    color: var(--color2);
+}
+
+
+/* ********** 
+UTILITY CLASS
+********** */
+
+.container {
+    width: 95%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.bar {
+    height: 1px;
+    background-color: #bbb;
+    width: 100%;
+    margin: 2rem auto;
+}
+
+
+.red {
+    color: #F00;
+}
+
+.ocher {
+    color: #CD8C56;
+}
+
+/* ********** 
+GENERAL SETTINGS
+********** */
+
+header,
+footer {
+    text-align: center;
+    color: var(--color1);
+}
+
+nav,
+footer {
+    background-color: var(--color3);
+}
+
+section {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 4.5rem;
+    letter-spacing: 1rem;
+    color: var(--color3);
+}
+
+h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+.btn {
+    padding: .7rem 1.4rem;
+    background-color: var(--color3);
+    border-radius: .6rem;
+    color: var(--color1);
+    border: 1px solid transparent;
+    display: inline-block;
+    transition: .3s ease;
+}
+
+.btn:hover:not(.btn-pagination) {
+    background-color: var(--color1);
+    color: var(--color3);
+    border-color: var(--color3);
+}
+
+/* ********** 
+MAIN LAYOUT
+********** */
+
+/* ***** HEADER ***** */
+
+/* *** NAV *** */
+
+nav {
+    padding: 1rem .5rem;
+}
+
+nav ul {
+    justify-content: space-evenly;
+}
+
+nav a {
+    font-weight: bold;
+    color: var(--color1);
+    transition: .3s ease;
+}
+
+nav a:hover {
+    color: var(--color2);
+}
+
+/* ***** MAIN ***** */
+
+.h1 {
+    border-bottom: 1px dotted var(--color3);
+}
+
+
+/* ***** SECTION - MES DERNIERS VOYAGES ***** */
+
+/* ARTICLE - VIENNE & ARTICLE - MARRAKECH */
+
+.article-container {
+    gap: 2%
+}
+
+.article-text,
+.img {
+    width: 49%;
+}
+
+.article-text p:first-child {
+    margin-top: 0;
+}
+
+.img img {
+    display: block;
+    width: 100%;
+}
+
+/* PAGINATION */
+
+.pagination {
+    justify-content: center;
+}
+
+.btn-pagination:not(:last-child) {
+    margin-right: .5rem;
+}
+
+.btn-pagination:hover:not(.previous, .active) {
+    background-color: #007eb3ab;
+    color: var(--color1);
+}
+
+.previous {
+    background-color: #eee;
+}
+
+.active {
+    background-color: #aaa;
+}
+
+/* ********** 
+VIENNE PAGE
+********** */
+
+/* ARTICLE - GEOGRAPHIE */
+
+small a {
+    display: inline-block;
+    color: var(--color3);
+}
+
+/* ARTICLE - A VISITER */
+
+.visite-bg {
+    background-color: #eee;
+    padding: 2rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+    text-align: center;
+}
+
+.visite-bg div {
+    width: 48%;
+    margin: 0 auto;
+    background-color: var(--color1);
+}
+
+.visite-bg div img {
+    width: 100%;
+    display: block;
+}
+
+.visite-bg p {
+    padding: 2rem;
+}
+
+/* ***** SECTION - LES MEILLEURES SAISONS POUR VOYAGER ***** */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 1rem;
+    border: 1px solid #ccc;
+}
+
+table tr:nth-child(even) {
+    background-color: #eee;
+}
+
+/* ***** SECTION - A PROPOS ***** */
+
+#about {
+    background: url(../img/fond.jpg) no-repeat center/cover;
+    padding: 7rem .5rem;
+}
+
+.about-text {
+    padding: 2rem;
+    width: 50%;
+    background-color: var(--color1);
+}
+
+/* ***** SECTION - ME CONTACTER ***** */
+
+/* ADDRESS */
+
+address p {
+    margin: 0;
+}
+
+address a {
+    display: inline-block;
+    color: var(--color3);
+}
+
+address p::before,
+.claire-mail::before,
+.claire-phone::before {
+    font-family: "Font Awesome 6 Free";
+    font-size: 2rem;
+    color: var(--color2);
+    font-weight: 900;
+    font-style: normal;
+    margin-right: .5rem;
+    transition: .3s ease;
+}
+
+address p::before {
+    content: "\f3c5";
+}
+
+.claire-mail::before {
+    content: "\f0e0";
+}
+
+.claire-phone::before {
+    content: "\f095";
+}
+
+
+
+address a::after,
+small a:after {
+    display: block;
+    content: '';
+    margin-top: -.3rem;
+    border-bottom: solid 1px var(--color3);
+    transform: scaleX(0);
+    transform-origin: 0% 50%;
+    transition: transform 250ms ease-in-out;
+}
+
+address a:hover::after,
+small a:hover::after {
+    transform: scale(1);
+}
+
+address a:hover::before {
+    color: var(--color3);
+}
+
+/* FORM */
+
+form {
+    padding: 3rem 1.5% 4rem;
+    background: url(../img/map-image.png) no-repeat center/cover var(--color2);
+    flex-direction: column;
+    text-align: center;
+}
+
+.form-container {
+    height: 15rem;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+    gap: 1.5%
+}
+
+.inputs-left {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inputs-left,
+.textarea {
+    width: 45.5%;
+}
+
+textarea {
+    width: 100%;
+    height: 100%;
+}
+
+.inputs-left input {
+    width: 100%;
+}
+
+.inputs-left input,
+textarea {
+    border-radius: .6rem;
+    border: none;
+    padding: 1rem;
+    outline: none;
+    border: 2px solid transparent;
+    transition: .3s ease;
+}
+
+.inputs-left input::placeholder,
+textarea::placeholder {
+    transition: .3s ease;
+}
+
+.inputs-left input:focus,
+textarea:focus {
+    border: 2px solid var(--color3);
+}
+
+.inputs-left input:focus::placeholder,
+textarea:focus::placeholder {
+    color: var(--color3);
+}
+
+.submit {
+    cursor: pointer;
+}
+
+/* SOCIAL MEDIA */
+
+.social-media p {
+    margin-bottom: 0;
+}
+
+.social-media a {
+    font-size: 3.5rem;
+    margin-right: .5rem;
+}
+
+.fa-square-facebook {
+    color: #4267B2;
+}
+
+.fa-square-twitter {
+    color: #1da1f2;
+}
+
+.fa-square-pinterest {
+    color: #bd081c;
+}
+
+.fa-square-instagram {
+    color: #8948C1;
+}
+
+.fa-brands {
+    transition: .5s ease;
+}
+
+.fa-brands:hover {
+    transform: scale(1.15);
+}
+
+/* ***** FOOTER ***** */
+
+footer {
+    padding: 3rem .5rem;
+}
+
+footer img {
+    width: 30%;
+    max-width: 8.5rem;
+    min-width: 3rem;
+}
+
+footer p:last-child {
+    margin-bottom: 0;
+}
+
+footer a {
+    color: var(--color1);
+    text-decoration: underline;
+    transition: .3s ease;
+}
+
+footer a:hover {
+    color: var(--color2);
+}

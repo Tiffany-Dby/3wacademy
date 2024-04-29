@@ -1,0 +1,125 @@
+/* ***** GENERAL SETTINGS ***** */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.gap-1 {
+    gap: 2rem
+}
+
+.gap-2 {
+    gap: 1rem;
+}
+
+header,
+footer {
+    background-color: #c6c6c6;
+}
+
+h1,
+h3 {
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+ul {
+    padding-left: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+.btn {
+    padding: 1rem 2rem;
+    background-color: #fff;
+    border-radius: 4px;
+    color: #333;
+    border: solid 1px #333;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #888;
+    color: #fff;
+}
+
+/* ***** HEADER ***** */
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+}
+
+/* ***** NAV ***** */
+
+nav a {
+    color: #333;
+    transition: .3s ease;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+/* ***** MAIN ***** */
+
+/* ***** BANNER ***** */
+
+.banner {
+    background: url(https://cdn.pixabay.com/photo/2016/11/22/19/17/buildings-1850129_1280.jpg) no-repeat center/cover fixed;
+    padding: 7.5rem .5rem;
+}
+
+.banner-text {
+    text-align: center;
+    background-color: rgba(255, 255, 255, .7);
+    width: 50%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* ***** SECTION 2 ***** */
+
+.section2 {
+    background-color: #d3dfec;
+    padding: 1rem;
+}
+
+h3 {
+    padding: 1rem 0;
+}
+
+.article img {
+    display: block;
+    width: 100%;
+}
+
+/* ***** FOOTER ***** */
+
+footer {
+    text-align: right;
+    padding: 1.5rem 0;
+}

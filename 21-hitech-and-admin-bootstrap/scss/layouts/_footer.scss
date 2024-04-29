@@ -1,0 +1,118 @@
+/* ---------- FOOTER */
+
+footer {
+  text-align: center;
+  background: url(../img/footer.jpg) no-repeat center/cover;
+
+  /*
+  .menu {
+    ul {
+      li {
+        &:hover > ul {
+          top: 0;
+          transform: translateY(-100%);
+          box-shadow: 0 -3px 3px rgba(0, 0, 0, 0.2);
+
+          @media screen and (min-width: 480px) {
+            box-shadow: 0 -3px 3px rgba(0, 0, 0, 0.3);
+          }
+
+          @media screen and (min-width: 960px) {
+            box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.4);
+          }
+
+          li {
+            // flex-direction: column-reverse;
+          }
+        }
+      }
+    }
+  }
+  */
+
+  .footer {
+    @include centerColumn;
+    padding: 2rem 0.5rem 7rem;
+    color: var(--text-footer);
+
+    @media screen and (min-width: 960px) {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    > div {
+      padding-top: 3rem;
+
+      @media screen and (min-width: 960px) {
+        width: 50%;
+      }
+    }
+
+    .imgs-wrapper {
+      @include centerChild;
+      flex-wrap: wrap;
+      gap: 0.25rem;
+
+      .sprites {
+        width: 24%;
+        height: 60px;
+        object-fit: cover;
+        min-width: 100px;
+        max-width: 100px;
+        border-radius: 4px;
+      }
+
+      .sprite-1 {
+        object-position: -300px;
+      }
+      .sprite-2 {
+        object-position: 0px;
+      }
+      .sprite-3 {
+        object-position: -100px;
+      }
+      .sprite-4 {
+        object-position: -400px;
+      }
+    }
+
+    ul {
+      @include centerChild;
+      gap: 2rem;
+      font-size: 2.5rem;
+
+      a {
+        color: #555;
+      }
+
+      .icon-facebook {
+        font-size: 3.5rem;
+
+        &:hover {
+          color: #1877f2;
+        }
+      }
+      .icon-instagram:hover {
+        color: #c32aa3;
+      }
+
+      .icon-twitter:hover {
+        color: #1da1f2;
+      }
+
+      .icon-linkedin:hover {
+        color: #0a66c2;
+      }
+    }
+
+    a:not(ul a) {
+      display: block;
+      color: var(--links-footer);
+      text-decoration: underline;
+
+      &:hover {
+        color: var(--hover-footer);
+      }
+    }
+  }
+}

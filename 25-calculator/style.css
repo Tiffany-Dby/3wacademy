@@ -1,0 +1,99 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 95%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#settings>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
+    border: 1px solid #ccc;
+
+}
+
+#settings a {
+    text-decoration: none;
+    background-color: #566dc3;
+    color: #fff;
+    padding: .5rem 1rem;
+}
+
+.separator {
+    height: 1rem;
+    width: .15rem;
+    background-color: #777;
+    margin: 0 .5rem;
+}
+
+.calculator {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem .5rem;
+    background-color: #566dc3;
+    margin: .5rem 0;
+}
+
+.calculator>div {
+    width: 20%;
+}
+
+.calculator input,
+.calculator select {
+    width: 100%;
+    padding: .5rem;
+}
+
+.calculator input {
+    text-align: center;
+}
+
+.calculator span {
+    color: transparent;
+}
+
+.calculator .btn-submit {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    outline: 1px solid #fff;
+    padding: .65rem .5rem;
+}
+
+.helpUser {
+    text-align: center;
+    background-color: blue;
+    color: #fff;
+    padding: .5rem;
+}
+
+#displayResult {
+    border: 1px solid #ccc;
+    margin-top: .5rem;
+}
+
+#displayResult>div {
+    width: 95%;
+    margin: 0 auto;
+    background-color: green;
+}
+
+#displayResult p {
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+}
+
+.hide {
+    display: none;
+}

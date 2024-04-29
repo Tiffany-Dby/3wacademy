@@ -1,0 +1,105 @@
+/* ***** GENERAL SETTINGS ***** */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  scroll-behavior: smooth;
+}
+
+body {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Outfit", sans-serif;
+}
+
+/* ***** UTILITY CLASSES ***** */
+
+.container {
+  width: 100%;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.cal-btn-operations {
+  flex: 4 0;
+  height: 100%;
+}
+
+.cal-btn-operations>*,
+.cal-btn-operations>*>* {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.cal-btn-operations>*>* {
+  width: 100%;
+}
+
+.calc-btn-reset {
+  flex: 1 0;
+}
+
+button {
+  width: 100%;
+  border: 1px solid rgb(216, 184, 125);
+  padding: 1.5rem 1rem;
+  border-radius: 0.35rem;
+  font-family: "Outfit", sans-serif;
+  font-size: 1.05rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: rgb(87, 67, 56);
+  background-color: #fffbf6;
+  transition: background-color 0.3s ease;
+  box-shadow: inset 0px 0px 2px 0px #31292331;
+}
+
+button:hover {
+  background-color: #e9d6bf;
+  box-shadow: inset 0px 0px 2px 0px #3129236e;
+}
+
+.calc-btn-reset button {
+  background-color: rgb(255, 197, 197);
+  border-color: rgb(214, 149, 149);
+  color: rgb(224, 35, 35);
+}
+
+.calc-btn-reset button:hover {
+  background-color: rgb(168, 27, 27);
+  color: #ebe5de;
+  box-shadow: inset 0px 0px 4px 0px rgba(121, 6, 6, 0.493);
+}
+
+p {
+  text-align: right;
+  margin: 0;
+  padding: 0.5rem;
+  background-color: #ebe5de;
+  box-shadow: inset 0px 0px 6px 0px #31292348;
+  border-radius: 0.25rem;
+  color: rgb(117, 94, 81);
+  font-weight: 700;
+}
+
+.calc {
+  background-color: #fdf9e9;
+  border-radius: 0.5rem;
+  box-shadow: 3px 3px 7px 0px #3129234d;
+  padding: 0.5rem;
+}

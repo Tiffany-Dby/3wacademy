@@ -1,0 +1,175 @@
+/* ********************
+GENERAL SETTINGS
+******************** */
+
+/* ** */
+
+/* **
+FONT 1 - CARDO
+** */
+
+@font-face {
+    font-family: 'Cardo';
+    src: url(../fonts/cardo/cardo-regular.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cardo';
+    src: url(../fonts/cardo/cardo-bold.woff) format("woff");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cardo';
+    src: url(../fonts/cardo/cardo-italic.woff) format("woff");
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* **
+FONT 2 - SPECIALELITE
+** */
+
+@font-face {
+    font-family: 'Special Elite';
+    src: url(../fonts/specialelite/SpecialElite.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* **
+UTILITY CLASSES
+** */
+
+.container {
+    max-width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clear {
+    clear: both;
+}
+
+/* ** */
+
+body {
+    font-family: 'Cardo', serif;
+    line-height: 1.5;
+    font-size: 1.6rem;
+    color: #333;
+}
+
+h1,
+h2,
+h3,
+section p:first-letter {
+    font-family: 'Special Elite', serif;
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 2;
+}
+
+h2 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+
+h3::before {
+    content: "❧";
+    margin-right: .5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+}
+
+blockquote,
+footer p {
+    text-align: center;
+}
+
+blockquote p::before,
+.quotation::before {
+    content: "« ";
+}
+
+blockquote p {
+    font-weight: bold;
+    font-style: italic;
+}
+
+blockquote p::after,
+.quotation::after {
+    content: " »";
+}
+
+blockquote cite {
+    font-style: normal;
+}
+
+p {
+    text-align: justify;
+}
+
+section p:first-letter {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-right: 1.5rem;
+    float: left;
+}
+
+em {
+    font-size: 1.4rem;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: #333;
+}
+
+/* ********************
+MAIN LAYOUT
+******************** */
+
+/* *****
+TYPO-DFN
+***** */
+
+dfn {
+    font-style: normal;
+}
+
+abbr {
+    font-style: italic;
+
+}
+
+/* *****
+SECTION - TIRET CADRATIN - and SOURCE
+***** */
+
+span,
+a {
+    border-bottom: 2px dashed #333;
+}
+
+/* *****
+FOOTER
+***** */
+
+footer p {
+    font-size: 4rem;
+}

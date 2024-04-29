@@ -1,0 +1,31 @@
+.square {
+    position: relative;
+    margin: 35vh auto;
+    display: block;
+    width: 250px;
+    height: 250px;
+    background-color: #30336b;
+}
+
+.square::before,
+.square::after {
+    content: "";
+    position: absolute;
+    width: 250px;
+    height: 250px;
+}
+
+.square::before {
+    background-color: #130f40;
+    left: -50px;
+    top: -50px;
+    z-index: -1;
+
+}
+
+.square::after {
+    background-color: #95afc0;
+    left: 50px;
+    top: 50px;
+    z-index: 2;
+}

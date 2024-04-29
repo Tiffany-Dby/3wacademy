@@ -1,0 +1,72 @@
+/* ---------- VARIABLES */
+
+:root {
+  /* Background colors */
+  --bg-primary-color: #eee;
+  --bg-body: #eee;
+  --bg-header: #0c6588;
+  --bg-menu: #e2f7ff;
+  --bg-main: #fff;
+  --bg-footer: #333;
+
+  /* Text colors */
+  --titles: #333;
+  --text: #555;
+  --text-header: #e2f7ff;
+  --text-footer: #ddd;
+
+  /* Links / Buttons */
+  --links: #0c6588;
+  --links-footer: #eee;
+  --hover: #000;
+  --hover-footer: #0c6588;
+
+  /* Borders */
+  --border-sm: 1px solid #eee;
+  --border-md: 1px solid #ddd;
+  --border-lg: 2px solid #ccc;
+
+  /* Font settings */
+  --default-font-size: 1.5rem;
+  --line-height: 1.5;
+
+  /* Tags settings */
+  --height-tag: 2.5rem;
+
+  /* Titles dots */
+  --bg-dots: #eee;
+}
+
+.theme-dark {
+  /* Dark mode colors */
+  /* Background colors */
+  --bg-primary-color: #444;
+  --bg-body: #222;
+  --bg-header: #0c6588;
+  --bg-menu: #0c6588;
+  --bg-main: #333;
+
+  /* Text colors */
+  --titles: #fff;
+  --text: #ddd;
+
+  /* Links / Buttons */
+  --links: #e2f7ff;
+  --links-footer: #eee;
+  --hover: #fff;
+
+  /* Borders */
+  --border-sm: 1px solid #666;
+  --border-md: 1px solid #555;
+  --border-lg: 2px solid #444;
+
+  /* Titles dots */
+  --bg-dots: #202020;
+}
+
+.line-large {
+  /* Line height : Large */
+  /* Font settings */
+  --default-font-size: 1.6rem;
+  --line-height: 2;
+}

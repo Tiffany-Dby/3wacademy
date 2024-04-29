@@ -1,0 +1,302 @@
+/* ***** GENERAL SETTINGS ***** */
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    --color1: #34495e;
+    --color2: #1abc9c;
+    --color3: #333;
+    --color4: #fefefe;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--color4);
+    line-height: 1.5;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+section {
+    padding: 3rem 1rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 6rem;
+}
+
+h3::after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 2px;
+    width: 17vw;
+    left: 50%;
+    bottom: -2rem;
+    transform: translateX(-50%);
+}
+
+h4 {
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+.black {
+    color: var(--color3);
+}
+
+.black::after {
+    background-color: var(--color3);
+}
+
+.white {
+    color: var(--color4);
+}
+
+.white::after {
+    background-color: var(--color4);
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+/* ***** HEADER ***** */
+
+header {
+    background-color: var(--color1);
+    color: var(--color4);
+    padding: 2rem;
+}
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* *** LEFT *** */
+
+header p {
+    font-size: 4rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+/* *** RIGHT *** */
+
+.nav-links {
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.nav-links a {
+    color: var(--color4);
+    text-transform: uppercase;
+    padding: .5rem;
+    transition: .3s ease;
+}
+
+.nav-links a:hover {
+    background-color: var(--color2);
+}
+
+/* ***** MAIN ***** */
+
+/* *** BANNER *** */
+
+.banner {
+    color: var(--color4);
+    background-color: var(--color2);
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content {
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin: 3rem 0;
+    font-size: 4rem;
+    font-weight: 600;
+    position: relative;
+}
+
+h1::after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 1px;
+    width: 7vw;
+    background-color: var(--color4);
+    left: 50%;
+    bottom: -2rem;
+    transform: translateX(-50%);
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+/* *** PORTFOLIO *** */
+
+.portfolio {
+    background-color: var(--color4);
+}
+
+.img-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+/* *** ABOUT *** */
+
+.about {
+    background-color: var(--color2);
+}
+
+.about-textContainer {
+    justify-content: space-around;
+    gap: 8rem;
+}
+
+.about-text {
+    width: 50%;
+}
+
+.about-text p {
+    text-align: left;
+}
+
+/* *** CONTACT *** */
+
+.contact-infos {
+    margin-top: 4rem;
+    justify-content: space-between;
+}
+
+.contact-infos a {
+    font-weight: 300;
+    color: var(--color3);
+}
+
+.contact-infos p {
+    margin: 0;
+}
+
+.contact-infos a:hover {
+    color: var(--color1);
+}
+
+/* *** SOCIAL MEDIA *** */
+
+.social-media {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: var(--color1);
+}
+
+.social-media-links {
+    margin: 0;
+    justify-content: center;
+}
+
+.social-media-links a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media-links img {
+    margin: 0 .7rem;
+}
+
+/* ***** FOOTER ***** */
+
+footer {
+    background-color: var(--color3);
+    color: var(--color4);
+}
+
+footer p {
+    font-size: .8rem;
+    margin: 0;
+    padding: 1rem;
+}
+
+/* ***** MEADIA QUERIES ***** */
+
+/* *** TABLET *** */
+
+@media screen and (max-width:768px) {
+    /* ***** HEADER ***** */
+    .header {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /* *** RIGHT *** */
+    .nav-header {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    /* ***** MAIN ***** */
+    /* *** ABOUT *** */
+    .about-textContainer {
+        flex-direction: column;
+        align-items: center;
+        gap: 0rem;
+    }
+    .about-text {
+        width: 100%;
+    }
+}
+
+/* *** MOBILE *** */
+
+@media screen and (max-width:545px) {
+    /* ***** HEADER ***** */
+    /* *** RIGHT *** */
+    .nav-links {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    /* ***** MAIN ***** */
+    /* *** CONTACT *** */
+    .contact-infos {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+}

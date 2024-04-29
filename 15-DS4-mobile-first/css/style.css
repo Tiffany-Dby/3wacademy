@@ -1,0 +1,354 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    --gradient: linear-gradient(to top right, #ff3527, #fb5283);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+header {
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: center;
+
+    /* pour fixer le menu par rapport au header */
+    position: relative;
+
+}
+
+/* .sousMenu {
+    display: none;
+} */
+
+.logo img {
+    width: 90px;
+}
+
+.burger {
+    text-align: right;
+}
+
+.burger img {
+    width: 50%;
+}
+
+.sousMenu {
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    list-style: none;
+    background: var(--gradient);
+    position: absolute;
+    top: 10rem;
+    left: 0;
+    width: 100%;
+    padding: 1rem 2rem;
+    opacity: 0;
+    display: none;
+    z-index: 99;
+}
+
+.sousMenu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sousMenu li {
+    padding: .5rem;
+    font-size: 1.5rem;
+}
+
+.menu:hover .sousMenu {
+    display: block;
+    opacity: 1;
+}
+
+
+/* Hero */
+
+.hero {
+    margin-top: 4rem;
+}
+
+.controller {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.controllerImg {
+    transform: translateX(-16rem);
+}
+
+.controllerImg img {
+    width: 280px;
+}
+
+.colorBox {
+    background: var(--gradient);
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    height: 180px;
+    width: 60%;
+    position: relative;
+}
+
+.containerBtn {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    text-align: center;
+}
+
+.containerBtn img {
+    width: 60%;
+}
+
+.containerBtn p {
+    color: #fff;
+    font-weight: bold;
+}
+
+/* description */
+
+.description {
+    margin-top: 4rem;
+    padding: 0 10%;
+    display: flex;
+}
+
+.separator {
+    width: 1.2rem;
+    height: 180px;
+    background: var(--gradient);
+}
+
+.text {
+    padding: 0 0 0 10%;
+}
+
+.text h1 {
+    margin: 0;
+    font-size: 4rem;
+}
+
+.text h2 {
+    font-size: 1.8rem;
+    color: #999;
+}
+
+.text h4 {
+    font-size: 1.2rem;
+    color: #c0c0c0;
+    font-weight: 100;
+}
+
+.text h3 {
+    font-size: 3rem;
+}
+
+.btn {
+    background: var(--gradient);
+    display: inline-block;
+    font-size: 1.8rem;
+    color: #fff;
+    text-decoration: none;
+    padding: 2rem 6rem;
+    border-radius: 1rem;
+    border: .2rem #fff solid;
+    transition: border-color .3s;
+}
+
+.btn:hover {
+    border-color: #ff3527;
+    background: #fff;
+    color: #ff3527;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 4rem
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 3rem;
+}
+
+footer ul li img {
+    height: 20px;
+    object-fit: cover;
+}
+
+footer ul {
+    padding: 0;
+    text-align: center;
+}
+
+
+/*********************/
+
+/*Media queries*/
+
+@media screen and (min-width: 750px) {
+    .hero {
+        display: flex;
+        justify-content: space-between;
+    }
+    .description {
+        width: 45%;
+        margin-top: 0;
+        padding-right: 0;
+        order: 1;
+    }
+    .controller {
+        width: 55%;
+        order: 2;
+    }
+    .colorBox {
+        width: 73%;
+    }
+    .controllerImg {
+        width: 75%;
+        transform: translateX(-13rem);
+    }
+    .controllerImg img {
+        min-width: 280px;
+        max-width: 495px;
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 850px) {}
+
+@media screen and (min-width: 1000px) {
+    .burger {
+        display: none;
+    }
+    .menu:hover .sousMenu,
+    .sousMenu {
+        display: flex;
+
+    }
+    .sousMenu {
+        position: static;
+        background: none;
+        opacity: 1;
+        gap: 2rem;
+    }
+    .sousMenu a {
+        color: #333;
+    }
+    .separator {
+        height: 250px;
+    }
+    .text h1 {
+        font-size: 4.5rem;
+    }
+    .text h2 {
+        font-size: 2rem;
+    }
+    .text h3 {
+        font-size: 3.5rem;
+    }
+
+    .description {
+        width: 38%;
+    }
+    .controller {
+        width: 62%;
+    }
+    .colorBox {
+        width: 80%;
+        height: 290px;
+    }
+    .containerBtn {
+        top: 50%;
+        left: 65%;
+        transform: translateY(-50%);
+    }
+    .btn {
+        padding: 1.5rem 4.5rem;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .description {
+        width: 39%;
+    }
+    .controller {
+        width: 61%;
+    }
+    .separator {
+        height: 250px;
+    }
+    .colorBox {
+        height: 290px;
+    }
+    .text h1 {
+        font-size: 4.5rem;
+    }
+    .text h2 {
+        font-size: 2.15rem;
+    }
+    .text h3 {
+        font-size: 3.5rem;
+    }
+    .controllerImg {
+        transform: translateX(-16rem);
+    }
+}
+
+@media screen and (min-width: 1350px) {
+    .description {
+        width: 40%;
+    }
+    .controller {
+        width: 60%;
+    }
+    .colorBox {
+        width: 85%;
+    }
+    .separator {
+        height: 285px;
+    }
+    .colorBox {
+        height: 325px;
+    }
+    .text h1 {
+        font-size: 5rem;
+    }
+    .text h2 {
+        font-size: 2.5rem;
+    }
+    .text h3 {
+        font-size: 4rem;
+    }
+    .controllerImg {
+        transform: translateX(-21rem);
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .description {
+        width: 40%;
+    }
+    .controller {
+        width: 60%;
+    }
+    .controllerImg {
+        transform: translate(-21rem, -1rem);
+    }
+    .controllerImg img {
+        max-width: 570px;
+    }
+
+}

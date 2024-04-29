@@ -1,0 +1,126 @@
+/* ---------- HEADER */
+
+header {
+  text-align: center;
+
+  p {
+    margin: 0;
+  }
+
+  .header-wrapper {
+    background: url(../img/header.jpg) no-repeat center/cover;
+    color: var(--titles);
+
+    /* ----- ACCESSILITY SETTINGS */
+    .settings-container {
+      @include directionColumn;
+      row-gap: 0.5rem;
+      padding: 0.5rem;
+      background-color: var(--bg-menu);
+
+      @media screen and (min-width: 480px) {
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
+
+      div {
+        @include centerChild;
+        gap: 1rem;
+
+        button {
+          padding: 0;
+        }
+      }
+    }
+    /* ----- */
+    .header {
+      font-size: 1.6rem;
+      padding: 2rem 0.5rem;
+
+      @media screen and (min-width: 480px) {
+        @include alignChildren(space-around);
+      }
+
+      @media screen and (min-width: 960px) {
+        @include alignChildren(space-between);
+        padding: 2rem 0;
+      }
+
+      a {
+        color: var(--text-header);
+      }
+
+      .logo-container a {
+        @include directionColumn;
+
+        @media screen and (min-width: 960px) {
+          display: grid;
+          grid-template-columns: 23% 1fr;
+          align-items: end;
+        }
+
+        .logo {
+          width: 100%;
+          margin: 0 auto;
+
+          @media screen and (min-width: 960px) {
+            margin: 0;
+          }
+
+          img {
+            width: 100%;
+            max-width: 100px;
+          }
+        }
+      }
+
+      .searchbar {
+        display: none;
+        color: var(--text-header);
+        padding: 1.5rem 3rem;
+        border-radius: 5rem;
+        font-size: 1.5rem;
+        background-color: #30acd6;
+        border: 2px solid #fff;
+
+        @media screen and (min-width: 960px) {
+          @include alignChildren(space-between);
+          gap: 1rem;
+        }
+
+        label::after {
+          content: "❯❯❯";
+          margin: 0 0 0 1rem;
+          font-weight: 600;
+        }
+
+        select {
+          color: var(--text-header);
+          border: none;
+          background-color: transparent;
+          appearance: none;
+
+          option {
+            background-color: #30acd6;
+          }
+        }
+
+        span {
+          font-size: 2.5rem;
+          margin-left: -0.5rem;
+        }
+      }
+
+      .header-links {
+        @include centerChild;
+        gap: 2rem;
+        margin-top: 1rem;
+
+        [class^="icon-"] {
+          font-size: 4rem;
+        }
+      }
+    }
+  }
+}
