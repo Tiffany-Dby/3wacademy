@@ -1,9 +1,43 @@
 # Projects
 During my course at 3W Academy, we worked on various projects to learn Web Development. This repository showcases some of the projects I created.
+More projects will be added.
 
+## Table of Contents
+
+- [Front-end Projects](#front-end-projects)
+  - [Project 1: Position exercise](#project-1--position-exercise)
+  - [Project 2: Mickey exercise](#project-2--mickey-exercise)
+  - [Project 3: Bruce Wayne Porfolio](#project-3--bruce-wayne-porfolio)
+  - [Project 4: Triangles exercise](#project-4--triangles-exercise)
+  - [Project 5: Before/After exercise](#project-5--beforeafter-exercise)
+  - [Project 6: Position & Triangles exercise](#project-6--position--triangles-exercise)
+  - [Project 7: New York](#project-7--new-york)
+  - [Project 8: Zoning](#project-8--zoning)
+  - [Project 9: JavaScript initiation exercises](#project-9--javascript-initiation-exercises)
+  - [Project 10: New York City](#project-10--new-york-city)
+  - [Project 11: Typography](#project-11--typography)
+  - [Project 12: Green Office](#project-12--green-office)
+  - [Project 13: Hello world](#project-13--hello-world)
+  - [Project 14: Move academy](#project-14--move-academy)
+  - [Project 15: DS4](#project-15--ds4)
+  - [Project 16: Grid gallery exercise](#project-16--grid-gallery-exercise)
+  - [Project 17: ArchiDesign](#project-17--archidesign)
+  - [Project 18: Expo](#project-18--expo)
+  - [Project 19: Freshly Restaurant](#project-19--freshly-restaurant)
+  - [Project 20: Bootstrap Tinder exercise](#project-20--bootstrap-tinder-exercise)
+  - [Project 21: Hitech](#project-21--hitech)
+  - [Project 22: Portfolio sort exercise](#project-22--portfolio-sort-exercise)
+  - [Project 23: Project movies](#project-23--project-movies)
+  - [Project 24: Shopping list exercise](#project-24--shopping-list-exercise)
+  - [Project 25: Calculator](#project-25--calculator)
+  - [Project 26: 3WA Rocket](#project-26--3wa-rocket)
+  - [Project 27: Arkanoid exercise](#project-27--arkanoid-exercise)
+  - [Project 28: Fetch Pokemon](#project-28--fetch-pokemon)
+  - [Project 29: React Calc](#project-29--react-calc)
+- [Back-end / Fullstack Projects](#back-end--fullstack-projects)
 
 ## Front-end Projects
-Below are the GitHub pages for each project stored in this repository, along with brief descriptions.
+Below is a list of front-end projects along with brief descriptions, the technologies used, and their GitHub Pages.
 
 
 ### Project 1 : [Position exercise](https://github.com/Tiffany-Dby/3wacademy/tree/main/01-position-grid)
@@ -136,20 +170,20 @@ __Description :__ Display the 3WA rocket and make it launch (+ other instruction
 __Technologies :__ HTML  -  CSS  -  JavaScript\
 __Github Page :__ [Page 3WA Rocket](https://tiffany-dby.github.io/3wacademy/26-rocket/)
 
-### Project 27 : []()
-__Description :__ \
-__Technologies :__ HTML  -  CSS\
-__Github Page :__ []()
+### Project 27 : [Arkanoid exercise](https://github.com/Tiffany-Dby/3wacademy/tree/main/27-projet-arkanoid)
+__Description :__ Make a "Brick Breaker"\
+__Technologies :__ HTML  -  CSS  -  Canvas\
+__Github Page :__ [Step 1](https://tiffany-dby.github.io/3wacademy/27-projet-arkanoid/etape1/)  -  [Step 2](https://tiffany-dby.github.io/3wacademy/27-projet-arkanoid/etape2/)  -  [Step 3](https://tiffany-dby.github.io/3wacademy/27-projet-arkanoid/etape3/)  -  [Step 4](https://tiffany-dby.github.io/3wacademy/27-projet-arkanoid/etape4/)  -  Step 5 (WIP)
 
-### Project 28 : []()
-__Description :__ \
-__Technologies :__ HTML  -  CSS\
-__Github Page :__ []()
+### Project 28 : [Fetch Pokemon](https://github.com/Tiffany-Dby/3wacademy/tree/main/28-fetch-pokemon)
+__Description :__ Retrieve and display the first 10 Pokemons from the Pokemon API\
+__Technologies :__ HTML  -  CSS  -  JavaScript\
+__Github Page :__ [Page Fetch Pokemon](https://tiffany-dby.github.io/3wacademy/28-fetch-pokemon/)
 
-### Project 29 : []()
-__Description :__ \
-__Technologies :__ HTML  -  CSS\
-__Github Page :__ []()
+### Project 29 : [React Calc](https://github.com/Tiffany-Dby/3wacademy/tree/main/29-react-calc)
+__Description :__ Make a Calculator component with React\
+__Technologies :__ HTML  -  CSS  -  React.js\
+__Github Page :__ [Page React Calc](https://tiffany-dby.github.io/3wacademy/29-react-calc/src/)
 
 ## Back-end / Fullstack Projects
 I will be adding more projects soon, focusing on back-end and/or fullstack development.
