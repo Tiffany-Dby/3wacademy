@@ -5,17 +5,13 @@ During my course at 3W Academy, we worked on various projects to learn Web Devel
 Below are the GitHub pages for each project stored in this repository, along with brief descriptions.
 
 ### Project 1 : [Position](https://github.com/Tiffany-Dby/3wacademy/tree/main/01-position-grid)
-<details>
-  <summary>__More details__</summary>
   <u>Description :</u> Positionning with `position` & `grid`\
 <u>Technologies :</u> HTML  -  CSS\
 <u>Github Pages :</u>
   - [Grid version](https://tiffany-dby.github.io/3wacademy/01-position-grid/07-grid/)
   - [Position version](https://tiffany-dby.github.io/3wacademy/01-position-grid/07-position/)
-</details>
 
-
-### Project 2 : []()
+### Project 2 : [Mickey](https://github.com/Tiffany-Dby/3wacademy/tree/main/02-mickey)
 <u>Description :</u> Positionning with `position` only\
 <u>Technologies :</u> HTML  -  CSS\
 <u>Github Page :</u> [Page Mickey](https://tiffany-dby.github.io/3wacademy/02-mickey/)
