@@ -145,7 +145,7 @@ __Github Page :__ [Page Bootstrap Tinder](https://tiffany-dby.github.io/3wacadem
 ### Project 21 : [Hitech](https://github.com/Tiffany-Dby/3wacademy/tree/main/21-hitech-and-admin-bootstrap)
 __Description :__ Reproduce 4 pages based on mockup and instructions (mobile first)\
 __Technologies :__ HTML  -  CSS  -  SASS  -  Bootstrap  -  JavaScript  -  JQuery\
-__Github Page :__ [Index](https://tiffany-dby.github.io/3wacademy/21-hitech-and-admin-bootstrap/index.html)  -  [Product-1](https://tiffany-dby.github.io/3wacademy/21-hitech-and-admin-bootstrap/product-1.html)  -  [Products](https://tiffany-dby.github.io/3wacademy/21-hitech-and-admin-bootstrap/products.html)  -  [Product-empty](https://tiffany-dby.github.io/3wacademy/21-hitech-and-admin-bootstrap/product-empty.html)
+__Github Pages :__ [Index](https://tiffany-dby.github.io/3wacademy/21-hitech-and-admin-bootstrap/index.html)  -  [Product-1](https://tiffany-dby.github.io/3wacademy/21-hitech-and-admin-bootstrap/product-1.html)  -  [Products](https://tiffany-dby.github.io/3wacademy/21-hitech-and-admin-bootstrap/products.html)  -  [Product-empty](https://tiffany-dby.github.io/3wacademy/21-hitech-and-admin-bootstrap/product-empty.html)
 
 ### Project 22 : [Portfolio sort exercise](https://github.com/Tiffany-Dby/3wacademy/tree/main/22-portfolio-tri)
 __Description :__ Display a portfolio sorting component\
@@ -175,7 +175,7 @@ __Github Page :__ [Page 3WA Rocket](https://tiffany-dby.github.io/3wacademy/26-r
 ### Project 27 : [Arkanoid exercise](https://github.com/Tiffany-Dby/3wacademy/tree/main/27-projet-arkanoid)
 __Description :__ Make a "Brick Breaker"\
 __Technologies :__ HTML  -  CSS  -  Canvas\
-__Github Page :__ [Step 1](https://tiffany-dby.github.io/3wacademy/27-projet-arkanoid/etape1/)  -  [Step 2](https://tiffany-dby.github.io/3wacademy/27-projet-arkanoid/etape2/)  -  [Step 3](https://tiffany-dby.github.io/3wacademy/27-projet-arkanoid/etape3/)  -  [Step 4](https://tiffany-dby.github.io/3wacademy/27-projet-arkanoid/etape4/)  -  Step 5 (WIP)
+__Github Pages :__ [Step 1](https://tiffany-dby.github.io/3wacademy/27-projet-arkanoid/etape1/)  -  [Step 2](https://tiffany-dby.github.io/3wacademy/27-projet-arkanoid/etape2/)  -  [Step 3](https://tiffany-dby.github.io/3wacademy/27-projet-arkanoid/etape3/)  -  [Step 4](https://tiffany-dby.github.io/3wacademy/27-projet-arkanoid/etape4/)  -  Step 5 (WIP)
 
 ### Project 28 : [Fetch Pokemon](https://github.com/Tiffany-Dby/3wacademy/tree/main/28-fetch-pokemon)
 __Description :__ Retrieve and display the first 10 Pokemons from the Pokemon API\
